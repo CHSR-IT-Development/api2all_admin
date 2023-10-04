@@ -42,10 +42,10 @@
                 <li><a href="/cash_site_settings/bank_settings" class="slide-item">Bank Setting</a></li>
                 <li><a href="/cash_site_settings/paygate_setting" class="slide-item">Paygate Setting</a></li>
                 <li><a href="/cash_site_settings/paygate_history" class="slide-item">Paygate History</a></li>
-                <li><a href="{{ url('/' . $page='page-sessiontimeout') }}" class="slide-item">Cash Deposit List</a></li>
-                <li><a href="{{ url('/' . $page='notify') }}" class="slide-item">Cash Withdraw List</a></li>
-                <li><a href="{{ url('/' . $page='sweetalert') }}" class="slide-item">Transfer Cash</a></li>
-                <li><a href="{{ url('/' . $page='rangeslider') }}" class="slide-item">Transfer Logs</a></li>
+                <li><a href="/cash_site_settings/cash_deposit_list" class="slide-item">Cash Deposit List</a></li>
+                <li><a href="/cash_site_settings/cash_withdraw_list" class="slide-item">Cash Withdraw List</a></li>
+                <li><a href="/cash_site_settings/transfer_cash" class="slide-item">Transfer Cash</a></li>
+                <li><a href="/cash_site_settings/transfer_logs" class="slide-item">Transfer Logs</a></li>
             </ul>
         </li>
         <li class="slide">
@@ -94,13 +94,13 @@
                 <i class="fa fa-users side-menu__icon"></i>
                 <span class="side-menu__label">Members</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">List Senior</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">List Player</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Associate Profile</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">List Alias</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Online User</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Member Account</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">PT/Comm Summary</a></li>
+                <li><a href="/members/list_senior" class="slide-item">List Senior</a></li>
+                <li><a href="/members/list_player" class="slide-item">List Player</a></li>
+                <li><a href="/members/associate_profile" class="slide-item">Associate Profile</a></li>
+                <li><a href="/members/list_alias" class="slide-item">List Alias</a></li>
+                <li><a href="/members/online_user" class="slide-item">Online User</a></li>
+                <li><a href="/members/member_account" class="slide-item">Member Account</a></li>
+                <li><a href="/members/pt_comm_summary" class="slide-item">PT/Comm Summary</a></li>
             </ul>
         </li>
         <li class="slide">
