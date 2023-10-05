@@ -120,7 +120,7 @@
         <li class="slide">
             <a class="side-menu__item" data-toggle="slide">
                 <i class="fa fa-file-excel-o side-menu__icon"></i>
-                <span class="side-menu__label">Archive Reports</span><i class="angle fa fa-angle-right"></i></a>
+                <span class="side-menu__label">Archived Reports</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
                 <li><a href="/archived_reports/win_lose_simple" class="slide-item">Win Lose Simple</a></li>
                 <li><a href="/archived_reports/win_lose_full" class="slide-item">Win Lose Full</a></li>
