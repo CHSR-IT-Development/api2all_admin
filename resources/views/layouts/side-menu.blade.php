@@ -53,9 +53,9 @@
                 <i class="fa fa-envelope side-menu__icon"></i>
                 <span class="side-menu__label">Message</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Private Message</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">SMS</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Announcement</a></li>
+                <li><a href="/message/private_message" class="slide-item">Private Message</a></li>
+                <li><a href="/message/sms" class="slide-item">SMS</a></li>
+                <li><a href="/message/announcement" class="slide-item">Announcement</a></li>
             </ul>
         </li>
         <li class="slide">
@@ -108,59 +108,58 @@
                 <i class="fa fa-file-excel-o side-menu__icon"></i>
                 <span class="side-menu__label">Reports</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Win Lose Simple</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">Win Lose Full</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Top Player</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Top Wind Ticket</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Winloss VIP</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Member Statement</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Performance Report</a></li>
+                <li><a href="/reports/win_lose_simple" class="slide-item">Win Lose Simple</a></li>
+                <li><a href="/reports/win_lose_full" class="slide-item">Win Lose Full</a></li>
+                <li><a href="/reports/top_player" class="slide-item">Top Player</a></li>
+                <li><a href="/reports/top_win_ticket" class="slide-item">Top Wind Ticket</a></li>
+                <li><a href="/reports/win_loss_vip" class="slide-item">Winloss VIP</a></li>
+                <li><a href="/reports/member_statement" class="slide-item">Member Statement</a></li>
+                <li><a href="/reports/performance_report" class="slide-item">Performance Report</a></li>
             </ul>
         </li>
         <li class="slide">
-            <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
+            <a class="side-menu__item" data-toggle="slide">
                 <i class="fa fa-file-excel-o side-menu__icon"></i>
                 <span class="side-menu__label">Archive Reports</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Win Lose Simple</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">Win Lose Full</a></li>
+                <li><a href="/archived_reports/win_lose_simple" class="slide-item">Win Lose Simple</a></li>
+                <li><a href="/archived_reports/win_lose_full" class="slide-item">Win Lose Full</a></li>
             </ul>
         </li>
         <li class="slide">
-            <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
+            <a class="side-menu__item {{ Request::segment(1) == 'billing' ? 'active' : '' }}" href="/billing">
                 <i class="fa fa-file-text-o side-menu__icon"></i>
-                <span class="side-menu__label">Billing</span></a>
-
+                <span class="side-menu__label">{{ __('Billing') }}</span></a>
         </li>
         <li class="slide">
             <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
                 <i class="fa fa-exchange side-menu__icon"></i>
                 <span class="side-menu__label">Transfer</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Transfer</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">Transfer Logs</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">Transfer Settings</a></li>
+                <li><a href="/transfer/transfer" class="slide-item">Transfer</a></li>
+                <li><a href="/transfer/transfer_log" class="slide-item">Transfer Logs</a></li>
+                <li><a href="/transfer/transfer_settings" class="slide-item">Transfer Settings</a></li>
             </ul>
         </li>
         <li class="slide">
-            <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
+            <a class="side-menu__item" data-toggle="slide">
                 <i class="fa fa-line-chart side-menu__icon"></i>
                 <span class="side-menu__label">Marketing</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Birthday Notification</a></li>
+                <li><a href="/marketing/birthday_notification" class="slide-item">Birthday Notification</a></li>
             </ul>
         </li>
         <li class="slide">
-            <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
+            <a class="side-menu__item" data-toggle="slide">
                 <i class="fa fa-edit side-menu__icon"></i>
                 <span class="side-menu__label">Logs</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">Member Log</a></li>
+                <li><a href="/logs/member_log" class="slide-item">Member Log</a></li>
             </ul>
         </li>
         <li class="slide">
-            <a class="side-menu__item" data-toggle="slide" href="{{ url('/' . $page='#') }}">
-                <i class="fa fa-search side-menu__icon"></i>
+            <a class="side-menu__item" href="/search_ticket">
+                 <i class="fa fa-search side-menu__icon"></i>
                 <span class="side-menu__label">Search Ticket</span></a>
         </li>
     </ul>

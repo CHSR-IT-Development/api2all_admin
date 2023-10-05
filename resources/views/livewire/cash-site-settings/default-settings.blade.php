@@ -45,7 +45,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Sports :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -57,7 +57,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">M-sports</span>
@@ -1117,7 +1117,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Live Casino :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -1129,7 +1129,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">M-sports</span>
@@ -1501,7 +1501,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Lottery :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -1513,7 +1513,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">M-sports</span>
@@ -1686,7 +1686,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Lottery :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -1698,7 +1698,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">M-sports</span>
@@ -1871,7 +1871,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Lottery :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -1902,7 +1902,7 @@
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
                                                     <label class="form-label">Lottery :</label>
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">Enable</span>
@@ -1914,7 +1914,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
-                                                    <div class="d-flex flex-warp align-items-center">
+                                                    <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
                                                             <span class="custom-control-label">M-sports</span>
