@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="card">
                 <div class="card-header bg-primary text-white">
                     <div class="card-title">
@@ -23,38 +23,42 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <div class="form-group mt-4 mb-0">
-                        <div class="custom-controls-stacked">
-                            <label class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                <span class="custom-control-label">Enabled Bank Deposit</span>
-                            </label>
-                            <label class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
-                                <span class="custom-control-label">Enabled Paygate Deposit</span>
-                            </label>
-                            <label class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
-                                <span class="custom-control-label">Enabled Withdraw</span>
-                            </label>
-                            <label class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
-                                <span class="custom-control-label">Enabled Livechat</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group mt-4">
-                        <label class="form-label">Livechat id :</label>
-                        <div class="row gutters-sm">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Search for...">
+                    <div class="row">
+                        <div class="col-6 mx-auto">
+                            <div class="form-group mt-4 mb-0">
+                                <div class="custom-controls-stacked">
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
+                                        <span class="custom-control-label">Enabled Bank Deposit</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
+                                        <span class="custom-control-label">Enabled Paygate Deposit</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
+                                        <span class="custom-control-label">Enabled Withdraw</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
+                                        <span class="custom-control-label">Enabled Livechat</span>
+                                    </label>
+                                </div>
                             </div>
-                            <span class="col-auto align-self-center">
-                                <span class="form-help" data-toggle="popover" data-placement="top" data-content="Livechat Id description...">?</span>
-                            </span>
+                            <div class="form-group mt-4">
+                                <label class="form-label">Livechat id :</label>
+                                <div class="row gutters-sm">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                    </div>
+                                    <span class="col-auto align-self-center">
+                                        <span class="form-help" data-toggle="popover" data-placement="top" data-content="Livechat Id description...">?</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-4 mb-0">Submit</button>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-4 mb-0">Submit</button>
                 </div>
             </div>
         </div>

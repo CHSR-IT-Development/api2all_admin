@@ -52,10 +52,20 @@
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-12">
                         <div class="card">
+                        <div class="card-header bg-info text-white">Member Online</div>
                             <div class="card-body">
-                                <i class="fa fa-users card-custom-icon text-primary icon-dropshadow-primary" style="font-size:48px"></i>
-                                <p class=" mb-1 ">Total Player</p>
-                                <h2 class="mb-1 font-weight-bold">7</h2>
+                                <div class="d-flex justify-content-between align-items-center border-bottom-1">
+                                    <p>Senior</p><p>0</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom-1">
+                                    <p>Master Agent</p><p>0</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom-1">
+                                    <p>Agent</p><p>0</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center border-bottom-1">
+                                    <p>Player</p><p>0</p>
+                                </div>
                             </div>
                         </div>
                     </div>

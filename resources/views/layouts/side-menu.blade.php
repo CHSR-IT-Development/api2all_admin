@@ -63,30 +63,30 @@
                 <i class="fa fa-futbol-o side-menu__icon"></i>
                 <span class="side-menu__label">Total Bet</span><i class="angle fa fa-angle-right"></i></a>
             <ul class="slide-menu">
-                <li><a href="{{ url('/' . $page='calendar') }}" class="slide-item">HDP & O/U</a></li>
-                <li><a href="{{ url('/' . $page='dragula') }}" class="slide-item">FT HDP & O/U</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HT HDP & O/U</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">FT OE</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HT OE</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">1X2</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Double Chance</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Total goal</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">FT Correct Score</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HT Correct Score</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">FT Lay Correct Score</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HT Lay Correct Score</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HT/FT</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">HG/FG</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">OutRight</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Mix Parlay</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Step</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Cockfight</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Sport</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Lottery</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">P2P</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Egamges</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Live Casino</a></li>
-                <li><a href="{{ url('/' . $page='cookies') }}" class="slide-item">Associate/Member</a></li>
+                <li><a href="/total_bet/hdp_ou" class="slide-item">HDP & O/U</a></li>
+                <li><a href="/total_bet/ft_hdp_ou" class="slide-item">FT HDP & O/U</a></li>
+                <li><a href="/total_bet/ht_hdp_ou" class="slide-item">HT HDP & O/U</a></li>
+                <li><a href="/total_bet/ft_oe" class="slide-item">FT OE</a></li>
+                <li><a href="/total_bet/ht_oe" class="slide-item">HT OE</a></li>
+                <li><a href="/total_bet/one_x_two" class="slide-item">1X2</a></li>
+                <li><a href="/total_bet/douable_chance" class="slide-item">Double Chance</a></li>
+                <li><a href="/total_bet/total_goal" class="slide-item">Total goal</a></li>
+                <li><a href="/total_bet/ft_correct_score" class="slide-item">FT Correct Score</a></li>
+                <li><a href="/total_bet/ht_correct_score" class="slide-item">HT Correct Score</a></li>
+                <li><a href="/total_bet/ft_lay_correct_score" class="slide-item">FT Lay Correct Score</a></li>
+                <li><a href="/total_bet/ht_lay_correct_score" class="slide-item">HT Lay Correct Score</a></li>
+                <li><a href="/total_bet/ht_ft" class="slide-item">HT/FT</a></li>
+                <li><a href="/total_bet/fg_lg" class="slide-item">HG/FG</a></li>
+                <li><a href="/total_bet/outright" class="slide-item">OutRight</a></li>
+                <li><a href="/total_bet/mix_player" class="slide-item">Mix Parlay</a></li>
+                <li><a href="/total_bet/step" class="slide-item">Step</a></li>
+                <li><a href="/total_bet/cockfight" class="slide-item">Cockfight</a></li>
+                <li><a href="/total_bet/sport" class="slide-item">Sport</a></li>
+                <li><a href="/total_bet/lottery" class="slide-item">Lottery</a></li>
+                <li><a href="/total_bet/p2p" class="slide-item">P2P</a></li>
+                <li><a href="/total_bet/egames" class="slide-item">Egamges</a></li>
+                <li><a href="/total_bet/live_casino" class="slide-item">Live Casino</a></li>
+                <li><a href="/total_bet/associate_member" class="slide-item">Associate/Member</a></li>
             </ul>
         </li>
         <li class="slide">

@@ -24,6 +24,11 @@
                 <x-label for="password" value="{{ __('Password') }}" />
                 <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
             </div>
+            
+            <div class="mt-4">
+                <x-label for="safecode" value="{{ __('Safecode') }}" />
+                <x-input id="safecode" class="block mt-1 w-full" type="password" name="text" />
+            </div>
 
             <div class="block mt-4">
                 <label for="remember_me" class="flex items-center">

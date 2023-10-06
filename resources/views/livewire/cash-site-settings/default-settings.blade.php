@@ -947,12 +947,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">My Share (0% - 92%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
                                                                                 <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>92%</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -969,12 +969,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1004,7 +1004,7 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">My Share (50% - 87%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
@@ -1026,12 +1026,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">Member Commission (1%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1061,7 +1061,7 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">My Share (50% - 84%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
@@ -1083,12 +1083,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1132,39 +1132,95 @@
                                                     <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                                            <span class="custom-control-label">M-sports</span>
+                                                            <span class="custom-control-label">Ezugi Casino</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
-                                                            <span class="custom-control-label">S-sports</span>
+                                                            <span class="custom-control-label">Allbet </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
-                                                            <span class="custom-control-label">la E-sports</span>
+                                                            <span class="custom-control-label">Ag</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
-                                                            <span class="custom-control-label">Maxbet</span>
+                                                            <span class="custom-control-label">Cockfight</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox5" value="option5">
-                                                            <span class="custom-control-label">Sbobet</span>
+                                                            <span class="custom-control-label">Wm Casino</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox6" value="option6">
-                                                            <span class="custom-control-label">Sbo Virtual sports</span>
+                                                            <span class="custom-control-label">Luckystreak </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox7" value="option7">
-                                                            <span class="custom-control-label">Ibc sports</span>
+                                                            <span class="custom-control-label">Dream Gaming </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox8" value="option8">
-                                                            <span class="custom-control-label">Ssportlcs</span>
+                                                            <span class="custom-control-label">Gold Diamond </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
-                                                            <span class="custom-control-label">Betswiz</span>
+                                                            <span class="custom-control-label">Sexy Baccarat</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">King855</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label"> Sa Gaming </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Fair Guaranted</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Evo Casino </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Bg Casino</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Pragmatic Play Live </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Miki World</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Xtreme Gaming</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Yeebet </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Cq9live </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Rcb988</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Lg88</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Microgaming Live</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Won Casino</span>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1196,6 +1252,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <p class="my-3 text-danger">* Player max win condition, system might have some minutes of delay depending on the product</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1217,12 +1274,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label"> Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1239,12 +1296,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label"> My Share (0% - 88%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>85</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>86</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>87</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>88</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1274,12 +1331,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label"> Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1296,12 +1353,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label"> My Share (0% - 87.5%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>85</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>86</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>87</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87.5</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1331,12 +1388,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label"> Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1353,12 +1410,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label"> My Share (0% - 0.5%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.05</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.05</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.05</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.05</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1388,12 +1445,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1410,12 +1467,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 81%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>78</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>79</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>80</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>81</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1445,12 +1502,13 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1467,12 +1525,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 80%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>77.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>78.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>79.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>80.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1516,39 +1574,19 @@
                                                     <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                                            <span class="custom-control-label">M-sports</span>
+                                                            <span class="custom-control-label">Malaysia Lottery </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
-                                                            <span class="custom-control-label">S-sports</span>
+                                                            <span class="custom-control-label">93 Connect</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
-                                                            <span class="custom-control-label">la E-sports</span>
+                                                            <span class="custom-control-label">Thai Lottery</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
-                                                            <span class="custom-control-label">Maxbet</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox5" value="option5">
-                                                            <span class="custom-control-label">Sbobet</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox6" value="option6">
-                                                            <span class="custom-control-label">Sbo Virtual sports</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox7" value="option7">
-                                                            <span class="custom-control-label">Ibc sports</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox8" value="option8">
-                                                            <span class="custom-control-label">Ssportlcs</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
-                                                            <span class="custom-control-label">Betswiz</span>
+                                                            <span class="custom-control-label">Xoso79</span>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1573,12 +1611,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1595,12 +1633,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1685,7 +1723,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="form-group mt-4">
-                                                    <label class="form-label">Lottery :</label>
+                                                    <label class="form-label">Games :</label>
                                                     <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
@@ -1701,39 +1739,155 @@
                                                     <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                                            <span class="custom-control-label">M-sports</span>
+                                                            <span class="custom-control-label"> Skywind </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
-                                                            <span class="custom-control-label">S-sports</span>
+                                                            <span class="custom-control-label">Pragmatic</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
-                                                            <span class="custom-control-label">la E-sports</span>
+                                                            <span class="custom-control-label">Ace333</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
-                                                            <span class="custom-control-label">Maxbet</span>
+                                                            <span class="custom-control-label">Cq9</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox5" value="option5">
-                                                            <span class="custom-control-label">Sbobet</span>
+                                                            <span class="custom-control-label">Global Gaming</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox6" value="option6">
-                                                            <span class="custom-control-label">Sbo Virtual sports</span>
+                                                            <span class="custom-control-label">Virtual Tech</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox7" value="option7">
-                                                            <span class="custom-control-label">Ibc sports</span>
+                                                            <span class="custom-control-label">Simple Play</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox8" value="option8">
-                                                            <span class="custom-control-label">Ssportlcs</span>
+                                                            <span class="custom-control-label">Joker </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
-                                                            <span class="custom-control-label">Betswiz</span>
+                                                            <span class="custom-control-label">Pt Gaming</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Big Gaming Egame</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Betsoft</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Dream Tech</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Pg Soft</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Habanero </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">918kiss</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Kingmaker</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Bng Games</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Yggdrasil</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Genesis</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Play'n Go</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Jdb</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Microgaming</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Relax Gaming </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Dragon Gaming</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Jili Games </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Mario</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Fungaming</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Live22</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">One Game - Egame </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Spade Gaming </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">AdvantPlay</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">M365 </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Pegasus</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Mega</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">Hacksaw</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">FastSpin</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">No Limit City </span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                                            <span class="custom-control-label">GFG Slot</span>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1744,7 +1898,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Malaysia Lottery
+                                                    Global Gaming  Simple Play  Big Gaming Egame  Joker  Dream Tech  Habanero  Bng Games  Kingmaker  Genesis  Relax Gaming  Dragon Gaming  Jili Games  Betsoft  Pragmatic  Ace333  Cq9  Fungaming  Virtual Tech  Live22  One Game - Egame  AdvantPlay  Spade Gaming  Pegasus  FastSpin  Hacksaw  Mega  GFG Slot  M365  No Limit City
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1758,12 +1912,13 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1780,12 +1935,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 85%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>82</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>83</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>84</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>85</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1801,7 +1956,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    93 Connect Thai Lottery Xoso79
+                                                    Pg Soft  Skywind  Pt Gaming  918kiss  Yggdrasil  Play'n Go  Jdb  Microgaming  Mario
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1815,12 +1970,12 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1837,18 +1992,49 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 74%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>71</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>72</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>73</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>74</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
+                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_content">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12 mt-5">
+                                        <div class="card shadow-none border border-1">
+                                            <div class="card-header ">
+                                                <div class="card-title">
+                                                    Betting Information
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="form-group mt-4">
+                                                    <label class="form-label">Financial :</label>
+                                                    <div class="d-flex flex-wrap align-items-center">
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
+                                                            <span class="custom-control-label">Enable</span>
+                                                        </label>
+                                                        <label class="custom-control custom-checkbox mr-5">
+                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2" Disable>
+                                                            <span class="custom-control-label">Disable</span>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1882,74 +2068,23 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab_content">
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12 mt-5">
-                                        <div class="card shadow-none border border-1">
-                                            <div class="card-header ">
-                                                <div class="card-title">
-                                                    Betting Information
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="form-group mt-4">
-                                                    <label class="form-label">Lottery :</label>
-                                                    <div class="d-flex flex-wrap align-items-center">
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                                            <span class="custom-control-label">Enable</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2" Disable>
-                                                            <span class="custom-control-label">Disable</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
                                                 <div class="form-group mt-4 mb-0 mb-4">
                                                     <div class="d-flex flex-wrap align-items-center">
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
-                                                            <span class="custom-control-label">M-sports</span>
+                                                            <span class="custom-control-label">One Gaming</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox2" value="option2">
-                                                            <span class="custom-control-label">S-sports</span>
+                                                            <span class="custom-control-label">Le Gaming </span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox3" value="option3">
-                                                            <span class="custom-control-label">la E-sports</span>
+                                                            <span class="custom-control-label">V8 Poker</span>
                                                         </label>
                                                         <label class="custom-control custom-checkbox mr-5">
                                                             <input type="checkbox" class="custom-control-input" name="example-checkbox4" value="option4">
-                                                            <span class="custom-control-label">Maxbet</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox5" value="option5">
-                                                            <span class="custom-control-label">Sbobet</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox6" value="option6">
-                                                            <span class="custom-control-label">Sbo Virtual sports</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox7" value="option7">
-                                                            <span class="custom-control-label">Ibc sports</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox8" value="option8">
-                                                            <span class="custom-control-label">Ssportlcs</span>
-                                                        </label>
-                                                        <label class="custom-control custom-checkbox mr-5">
-                                                            <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
-                                                            <span class="custom-control-label">Betswiz</span>
+                                                            <span class="custom-control-label">Mpoker</span>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -1960,50 +2095,31 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Malaysia Lottery
+                                                   One Gaming
                                                 </div>
                                             </div>
                                             <div class="card-body">
                                                 <div class="row mt-2">
-                                                    <div class="col-lg-6">
-                                                        <div class="expanel expanel-default">
-                                                            <div class="expanel-heading">
-                                                                <h3 class="expanel-title">Position Taking</h3>
-                                                            </div>
-                                                            <div class="expanel-body">
-                                                                <div class="row">
-                                                                    <div class="col-12 mt-4">
-                                                                        <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
-                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-12">
                                                         <div class="expanel expanel-default">
                                                             <div class="expanel-heading">
                                                                 <h3 class="expanel-title">Commission</h3>
                                                             </div>
                                                             <div class="expanel-body">
                                                                 <div class="row">
-                                                                    <div class="col-12 mt-4">
+                                                                    <div class="col-sm-12 col-md-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-6 mt-4">
+                                                                        <div class="alert alert-warning" role="alert"><span class="text-danger">Note : </span>Ceme Keliling, Bandar Ceme, Capsa Susun, Bandar Capsa, Big Two, Bandar Baccarat, Bandar Sakong games will receive only half of the commission</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2017,7 +2133,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    93 Connect Thai Lottery Xoso79
+                                                    Le Gaming  V8 Poker  Mpoker
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2025,18 +2141,18 @@
                                                     <div class="col-lg-6">
                                                         <div class="expanel expanel-default">
                                                             <div class="expanel-heading">
-                                                                <h3 class="expanel-title">Position Taking</h3>
+                                                                <h3 class="expanel-title">Commission</h3>
                                                             </div>
                                                             <div class="expanel-body">
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -2047,18 +2163,18 @@
                                                     <div class="col-lg-6">
                                                         <div class="expanel expanel-default">
                                                             <div class="expanel-heading">
-                                                                <h3 class="expanel-title">Commission</h3>
+                                                                <h3 class="expanel-title">Position Taking</h3>
                                                             </div>
                                                             <div class="expanel-body">
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 73.5%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>73.50</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>73.50</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>73.50</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>73.50</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
