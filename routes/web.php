@@ -67,7 +67,7 @@ use App\Livewire\Transfer\TransferSettings ;
 
 use App\Livewire\Marketing\BirthdayNotification ;
 
-use App\Livewire\logs\MemberLog ;
+use App\Livewire\Logs\MemberLog ;
 
 use App\Livewire\SearchTicket ;
 
