@@ -7,7 +7,7 @@ use App\Livewire\CashSiteSettings\BankSetting;
 use App\Livewire\CashSiteSettings\PaygateSetting;
 use App\Livewire\CashSiteSettings\PaygateHistory;
 use App\Livewire\CashSiteSettings\CashDepositList;
-use App\Livewire\CashSiteSettings\CashWithDrawList;
+use App\Livewire\CashSiteSettings\CashWithdrawList;
 use App\Livewire\CashSiteSettings\TransferCash;
 use App\Livewire\CashSiteSettings\TransferLogs;
 
@@ -91,7 +91,7 @@ Route::get('/cash_site_settings/bank_settings', BankSetting::class);
 Route::get('/cash_site_settings/paygate_setting', PaygateSetting::class);
 Route::get('/cash_site_settings/paygate_history', PaygateHistory::class);
 Route::get('/cash_site_settings/cash_deposit_list', CashDepositList::class);
-Route::get('/cash_site_settings/cash_withdraw_list', CashWithDrawList::class);
+Route::get('/cash_site_settings/cash_withdraw_list', CashWithdrawList::class);
 Route::get('/cash_site_settings/transfer_cash', TransferCash::class);
 Route::get('/cash_site_settings/transfer_logs', TransferLogs::class);
 // Message
