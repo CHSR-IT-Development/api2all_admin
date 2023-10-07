@@ -14,7 +14,7 @@
 <div>
     <div class="page-header">
         <div class="page-leftheader">
-            <h4 class="page-title">Birthday Notification</h4>
+            <h4 class="page-title">HT HDP & O/U</h4>
         </div>
         <div class="page-rightheader ml-auto d-lg-flex d-none">
             <ol class="breadcrumb">
@@ -22,8 +22,8 @@
                             <path d="M0 0h24v24H0V0z" fill="none" />
                             <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm5 15h-2v-6H9v6H7v-7.81l5-4.5 5 4.5V18z" />
                             <path d="M7 10.19V18h2v-6h6v6h2v-7.81l-5-4.5z" opacity=".3" /></svg><span class="breadcrumb-icon">Dashboard</span></a></li>
-                <li class="breadcrumb-item active"><a href="#">Marketing</a></li>
-                <li class="breadcrumb-item active"><a href="#">Birthday Notification</a></li>
+                <li class="breadcrumb-item"><a href="#">Total Bet</a></li>
+                <li class="breadcrumb-item active"><a href="#">HT HDP & O/U</a></li>
             </ol>
         </div>
     </div>
@@ -32,59 +32,46 @@
             <div class="card">
                 <div class="card-header bg-primary text-white">
                     <div class="card-title">
-                        Birthday Notification
+                        HT HDP & O/U
+                    </div>
+                    <div class="card-options">
+                        <select name="country" id="select-countries" class="form-control custom-select select2">
+                            <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>Full</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>Simple</option>
+                        </select><span class="mr-3"></span>
+                        <select name="country" id="select-countries" class="form-control custom-select select2 mr-3">
+                            <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>All</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>M-Sport</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>S-Sport</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>MaxBet</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>SBO</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>SBOVS</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>MT</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>Saba</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>Betswiz</option>
+                            <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>CMD</option>
+                        </select>
+                        <Button class="btn btn-info btn-sm ml-3">Leagues</Button>
+                        <Button class="btn btn-success btn-sm ml-3"><i class="fa fa-refresh mr-2"></i>(30)</Button>
                     </div>
                 </div>
                 <div class="card-body">
-                    <div class="row mb-5 align-items-center">
-                        <div class="col-sm-12 col-md-4"><a href="#" class="text-info">Birthday Today (0)</a></div>
-                        <div class="col-sm-12 col-md-4"><a href="#" class="text-info">Birthday in next 7 days (0)</a></div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="form-group">
-                                <label class="form-label">Birthday in</label>
-                                <select name="country" id="select-countries" class="form-control custom-select select2">
-                                    <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>--Select Month--</option>
-                                    <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>January</option>
-                                    <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>February</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>March</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>April</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>May</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>June</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>July</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>August</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>September</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>October</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>November</option>
-                                    <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>December</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
                     <div class="row">
                         <div class="col-12">
                             <div class="table-responsive">
                                 <table class="table table-bordered text-nowrap" id="example1">
                                     <thead>
                                         <tr>
-                                            <th class="wd-15p border-bottom-0">No.</th>
-                                            <th class="wd-15p border-bottom-0">User Name</th>
-                                            <th class="wd-15p border-bottom-0">Date of Birth</th>
-                                            <th class="wd-15p border-bottom-0">Local Time</th>
-                                            <th class="wd-15p border-bottom-0">Creation Time</th>
-                                            <th class="wd-15p border-bottom-0">Last Login Time</th>
+                                            <th class="text-center" style="vertical-align: inherit;" width="100">Time</th>
+                                            <th class="text-center" style="vertical-align: inherit;" width="300">Teams</th>
+                                            <th class="text-center">Home</th>
+                                            <th class="text-center">Away</th>
+                                            <th class="text-center">HDP Total</th>
+                                            <th class="text-center">Over</th>
+                                            <th class="text-center">Under</th>
+                                            <th class="text-center">OU Total</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
                                 </table>
                             </div>
                         </div>

@@ -34,7 +34,7 @@
                         </ul>
                         <div class="content_wrapper">
                             <div class="tab_content active">
-                            <div class="text-right"><button class="btn btn-success mb-3">Add Bank Info</button></div>
+                            <div class="text-right"><a href="/cash_site_settings/bank_settings/create_bank_info"><button class="btn btn-success mb-3">Add Bank Info</button></a></div>
                                 <div class="table-responsive">
                                     <table class="table table-bordered text-nowrap" id="example1">
                                         <thead>
@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                             <div class="tab_content">
-                            <div class="text-right"><button class="btn btn-success mb-3">Add Bank Info</button></div>
+                            <div class="text-right"><a href="/cash_site_settings/bank_settings/create_bank_info"><button class="btn btn-success mb-3">Add Bank Info</button></a></div>
                                 <div class="table-responsive">
                                     <table class="table table-bordered text-nowrap border" id="example1">
                                         <thead>

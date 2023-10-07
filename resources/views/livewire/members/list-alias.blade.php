@@ -28,7 +28,7 @@
                 <div class="card-body">
                     <div class="row justify-content-between mb-5">
                         <div class="col-sm-12 col-md-12 text-right">
-                            <a href="#" class="btn btn-success">Create Alias</a>
+                            <a href="/members/list_alias/create_new_alias" class="btn btn-success">Create Alias</a>
                         </div>
                     </div>
                     <div class="table-responsive">

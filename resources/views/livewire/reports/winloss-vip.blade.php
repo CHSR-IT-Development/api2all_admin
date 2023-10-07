@@ -45,7 +45,7 @@
                                             <div class="input-group">
                                                 <input type="text" class="form-control" placeholder="Search for...">
                                                 <span class="input-group-append">
-                                                    <button class="btn btn-success" type="button">Search</button>
+                                                    <button class="btn btn-success" type="button">Submit</button>
                                                 </span>
                                             </div>
                                         </div>

@@ -77,11 +77,15 @@
                                     </label><br />
                                     <label class="custom-control custom-checkbox mr-5">
                                         <input type="checkbox" class="custom-control-input" name="example-checkbox8" value="option8">
-                                        <span class="custom-control-label">Agent's Currency(MYR)</span>
+                                        <span class="custom-control-label">Top Winners </span>
                                     </label>
                                     <label class="custom-control custom-checkbox mr-5">
                                         <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
-                                        <span class="custom-control-label">Member's Currency</span>
+                                        <span class="custom-control-label">Top Losers</span>
+                                    </label>
+                                    <label class="custom-control custom-checkbox mr-5">
+                                        <input type="checkbox" class="custom-control-input" name="example-checkbox9" value="option9">
+                                        <span class="custom-control-label">Top Valid Amount</span>
                                     </label>
                                 </div>
                             </div>

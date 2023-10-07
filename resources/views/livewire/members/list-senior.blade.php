@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 text-right">
-                            <a href="#" class="btn btn-success">Add New Senior</a>
+                            <a href="/members/list_senior/create_new_senior" class="btn btn-success">Add New Senior</a>
                         </div>
                     </div>
                     <div class="table-responsive">

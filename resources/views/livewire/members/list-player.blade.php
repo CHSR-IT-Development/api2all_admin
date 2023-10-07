@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4 text-right">
                             <a href="#" class="btn btn-warning mr-3">Download</a>
-                            <a href="#" class="btn btn-success">Add New Senior</a>
+                            <a href="/members/list_player/create_new_player" class="btn btn-success">Add New Senior</a>
                         </div>
                     </div>
                     <div class="table-responsive">

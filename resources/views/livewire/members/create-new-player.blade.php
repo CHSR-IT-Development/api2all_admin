@@ -2,11 +2,13 @@
 <!-- Tabs css-->
 <link href="{{URL::asset('assets/plugins/select2/select2.min.css')}}" rel="stylesheet" />
 <link href="{{URL::asset('assets/plugins/tabs/style.css')}}" rel="stylesheet" />
+<!-- Date Picker css -->
+<link href="{{URL::asset('assets/plugins/date-picker/date-picker.css')}}" rel="stylesheet" />
 @endsection
 <div>
     <div class="page-header">
         <div class="page-leftheader">
-            <h4 class="page-title">Default Settings</h4>
+            <h4 class="page-title">Create Player</h4>
         </div>
         <div class="page-rightheader ml-auto d-lg-flex d-none">
             <ol class="breadcrumb">
@@ -14,8 +16,9 @@
                             <path d="M0 0h24v24H0V0z" fill="none" />
                             <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm5 15h-2v-6H9v6H7v-7.81l5-4.5 5 4.5V18z" />
                             <path d="M7 10.19V18h2v-6h6v6h2v-7.81l-5-4.5z" opacity=".3" /></svg><span class="breadcrumb-icon">Dashboard</span></a></li>
-                <li class="breadcrumb-item"><a href="#">Cash Site Settings</a></li>
-                <li class="breadcrumb-item active"><a href="#">Default Settings</a></li>
+                <li class="breadcrumb-item"><a href="#">Members</a></li>
+                <li class="breadcrumb-item"><a href="#">List Player</a></li>
+                <li class="breadcrumb-item active"><a href="#">Create Player</a></li>
             </ol>
         </div>
     </div>
@@ -26,21 +29,119 @@
                 <div class="alert alert-info" role="alert">This is the Group Setting Page, <a href="#" class="text-danger">click to switch to the Individual Setting Page</a></div>
                     <div class="tab_wrapper first_tab">
                         <ul class="tab_list">
+                            <li><i class="fa fa-futbol-o mr-2"></i>Informations</li>
                             <li><i class="fa fa-futbol-o mr-2"></i>Sport</li>
                             <li><i class="fa fa-empire mr-2"></i>Live Casino</li>
                             <li><i class="fa fa-empire mr-2"></i>Lottery</li>
-                            <li><i class="fa fa-gamepad mr-2"></i>Game</li>
+                            <li><i class="fa fa-gamepad mr-2"></i>Games</li>
                             <li><i class="fa fa-money mr-2"></i>Financial</li>
                             <li><i class="fa fa-life-bouy mr-2"></i>P2P</li>
                         </ul>
                         <div class="content_wrapper">
                             <div class="tab_content active">
                                 <div class="row">
+                                    <div class="col-12">
+                                        <div class="card shadow-none border border-1">
+                                            <div class="card-header ">
+                                                <div class="card-title">
+                                                    Informations Player
+                                                </div>
+                                            </div>
+                                            <div class="card-body row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">User Name</label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-append">
+                                                                <span class="btn btn-light">ma00</span>
+                                                            </span>
+                                                            <input type="text" class="form-control" placeholder="Search for...">
+                                                            <span class="input-group-append">
+                                                                <button class="btn btn-success" , type="button">Check Availability</button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Password *</label>
+                                                        <div class="input-group">
+                                                            <input type="password" class="form-control" placeholder="Password must contain 8 -15 characters">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Re-enter Password *</label>
+                                                        <div class="input-group">
+                                                            <input type="password" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Credit Limit</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control text-left" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Currency</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control text-left" readonly placeholder="MYR">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Name</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Date of Birth</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">
+                                                                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
+                                                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                                                        <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 2v3H4V5h16zM4 21V10h16v11H4z" />
+                                                                        <path d="M4 5.01h16V8H4z" opacity=".3" /></svg>
+                                                                </div>
+                                                            </div><input class="form-control fc-datepicker" placeholder="MM/DD/YYYY" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Email</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label class="form-label">Mobile</label>
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-label">Time Zone</label>
+                                                        <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                            <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>(UTC +07:00) Bangkok, Hanoi, Jakarta</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-success mx-2">Submit</button>
+                                    <button class="btn btn-danger mx-2">Cancel</button>
+                                </div>
+                            </div>
+                            <div class="tab_content">
+                                <div class="row">
                                     <div class="col-md-12 col-lg-12 mt-5">
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p class="text-warning">Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting.</p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -190,6 +291,105 @@
                                                                             </select>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Downline Position Share (HDP/OU/O/E) (0% - 86%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Downline Position Share (1X2/Outright/DC) (0% - 79%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Downline Position Share (Parlay/Others) (0% - 87%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Shared Forced (HDP/OU/O/E) (0% - 86%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Shared Forced (1X2/Outright/DC) (0% - 79%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Shared Forced (Parlay/Others) (0% - 87%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Take Up Remaining (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Take Up Remaining (1X2/Outright/DC) (50% - 79%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Take Up Remaining (Parlay/Others) (50% - 87%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -205,10 +405,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Commission Type (HDP/OU/O/E)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
                                                                                 <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -216,10 +414,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (HDP/OU/O/E) (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
                                                                                 <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -227,10 +423,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (1X2/Outright/DC) (1%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -238,10 +432,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (Parlay/CS/TG) (1%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -469,7 +661,7 @@
                                                                     </div>
                                                                     <div class="col-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (Parlay/Others) (50% - 87%)</label>
+                                                                            <label class="form-label">My Share (Parlay/Others) (50% - 79%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
@@ -493,10 +685,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Commission Type (HDP/OU/O/E)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
                                                                                 <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -504,10 +694,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (HDP/OU/O/E) (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
                                                                                 <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -515,10 +703,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (1X2/Outright/DC) (1%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -526,10 +712,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (Parlay/CS/TG) (1%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -737,10 +921,10 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (HDP/OU/O/E) (50% - 84%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>84%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -748,10 +932,10 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (1X2/Outright/DC) (50% - 84%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>76%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>77%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>78%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>84%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -759,10 +943,10 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (Parlay/Step/Others) (50% - 84%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>84%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -838,32 +1022,26 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (1X2/Outright/DC) (50% - 79%)</label>
+                                                                            <label class="form-label">My Share (1X2/Outright/DC) (50% - 87%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>76%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>77%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>78%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>79%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (Parlay/Others) (50% - 87%)</label>
+                                                                            <label class="form-label">My Share (Parlay/Step/Others) (50% - 87%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>84%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>85%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>86%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>87%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -882,10 +1060,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Commission Type (HDP/OU/O/E)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>4 (HDP/OU/O/E, Best Spread 4%)</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>A (HDP/OU/O/E, Best Spread 5%)</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -893,32 +1069,26 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">Member Commission (HDP/OU/O/E) (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
                                                                                 <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Member Commission (1X2/Outright/DC) (1%)</label>
+                                                                            <label class="form-label">Member Commission (1X2/Outright/DC) (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-6 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Member Commission (Parlay/CS/TG) (1%)</label>
+                                                                            <label class="form-label">Member Commission (Parlay/CS/TG) (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>1.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -950,10 +1120,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (0% - 92%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>92%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1007,10 +1175,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (50% - 87%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1064,10 +1230,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (50% - 84%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1101,9 +1265,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="tab_content">
@@ -1112,7 +1273,8 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p>Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting.</p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1298,6 +1460,28 @@
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
                                                                             <label class="form-label"> My Share (0% - 88%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>85</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>86</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>87</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>88</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Downline Position Share (0% - 88%)</label>
+                                                                            <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>85</option>
+                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>86</option>
+                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>87</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>88</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 mt-4">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Take Up Remaining (0% - 88%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>85</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>86</option>
@@ -1543,9 +1727,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="tab_content">
@@ -1554,7 +1735,8 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p>Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting.</p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1612,7 +1794,7 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Member Commission (0%)</label>
+                                                                            <label class="form-label">Member Commission (10%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
@@ -1636,10 +1818,10 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (0% - 0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>0.00</option>
                                                                                 <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>0.00</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1655,7 +1837,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    93 Connect Thai Lottery Xoso79
+                                                    93 Connect, Thai Lottery, Xoso79
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1669,12 +1851,10 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">My Share (HDP/OU/O/E) (50% - 86%)</label>
+                                                                            <label class="form-label">Member Commission (0%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>83%</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>84%</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>85%</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>86%</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1691,7 +1871,7 @@
                                                                 <div class="row">
                                                                     <div class="col-12 mt-4">
                                                                         <div class="form-group">
-                                                                            <label class="form-label">Commission Type (HDP/OU/O/E)</label>
+                                                                            <label class="form-label">My Share (0% - 50%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
                                                                                 <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
                                                                                 <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>4 (HDP/OU/O/E, Best Spread 4%)</option>
@@ -1708,9 +1888,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="tab_content">
@@ -1719,7 +1896,8 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p>Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting.</p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1899,7 +2077,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Global Gaming,  Simple Play,  Big Gaming Egame,  Joker,  Dream Tech,  Habanero,  Bng Games,  Kingmaker,  Genesis,  Relax Gaming,  Dragon Gaming, Jili Games,  Betsoft,  Pragmatic,  Ace333,  Cq9,  Fungaming,  Virtual Tech,  Live22,  One Game - Egame,  AdvantPlay,  Spade Gaming,  Pegasus,  FastSpin,  Hacksaw,  Mega,  GFG Slot,  M365,  No Limit City
+                                                    Global Gaming, Simple Play, Big Gaming Egame, Joker, Dream Tech, Habanero, Bng Games, Kingmaker, Genesis, Relax Gaming, Dragon Gaming, Jili Games, Betsoft, Pragmatic, Ace333, Cq9, Fungaming, Virtual Tech, Live22, One Game - Egame, AdvantPlay, Spade Gaming, Pegasus, FastSpin, Hacksaw, Mega, GFG Slot, M365, No Limit City
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1938,10 +2116,8 @@
                                                                         <div class="form-group">
                                                                             <label class="form-label">My Share (0% - 85%)</label>
                                                                             <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>82</option>
-                                                                                <option value="cz" data-data='{"image": "{{URL::asset('assets/images/flags/cz.svg')}}"}'>83</option>
-                                                                                <option value="de" data-data='{"image": "{{URL::asset('assets/images/flags/de.svg')}}"}'>84</option>
-                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>85</option>
+                                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>0.00</option>
+                                                                                <option value="br" data-data='{"image": "{{URL::asset('assets/images/flags/br.svg')}}"}'>0.00</option>
                                                                             </select>
                                                                         </div>
                                                                     </div>
@@ -1957,7 +2133,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Pg Soft,  Skywind,  Pt Gaming,  918kiss,  Yggdrasil,  Play'n Go,  Jdb,  Microgaming,  Mario
+                                                    Pg Soft, Skywind, Pt Gaming, 918kiss, Yggdrasil, Play'n Go, Jdb, Microgaming, Mario
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2010,9 +2186,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="tab_content">
@@ -2021,7 +2194,8 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p>Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting. </p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2041,9 +2215,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="tab_content">
@@ -2052,7 +2223,8 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Betting Information
+                                                    Betting Information<br />
+                                                    <p>Please note that Changes done on Default setting will take effect on ALL player that use Default Setting and players that are created after the changes had been done. Player with own setting (setting that is different with Default Setting) will not be affected by Default Setting.</p>
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2096,7 +2268,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                   One Gaming
+                                                    One Gaming
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2134,7 +2306,7 @@
                                         <div class="card shadow-none border border-1">
                                             <div class="card-header ">
                                                 <div class="card-title">
-                                                    Le Gaming  V8 Poker  Mpoker
+                                                    Le Gaming V8 Poker Mpoker
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -2187,9 +2359,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12 col-lg-12 mt-5 text-center">
-                                        <button type="submit" class="btn btn-success mt-4 mb-0">Submit</button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2208,4 +2377,11 @@
 <!---Select js-->
 <script src="{{URL::asset('assets/plugins/select2/select2.full.min.js')}}"></script>
 <script src="{{URL::asset('assets/js/select2.js')}}"></script>
+<!-- Datepicker js -->
+<script src="{{URL::asset('assets/plugins/date-picker/date-picker.js')}}"></script>
+<script src="{{URL::asset('assets/plugins/date-picker/jquery-ui.js')}}"></script>
+<script src="{{URL::asset('assets/plugins/input-mask/jquery.maskedinput.js')}}"></script>
+<!-- Form Advanced Element -->
+<script src="{{URL::asset('assets/js/formelementadvnced.js')}}"></script>
+<script src="{{URL::asset('assets/js/form-elements.js')}}"></script>
 @endsection

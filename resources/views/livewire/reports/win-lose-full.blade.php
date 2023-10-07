@@ -73,7 +73,7 @@
                                 </div><input class="form-control fc-datepicker" placeholder="MM/DD/YYYY" type="text">
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-3 mt-4"><button type="submit" class="btn btn-success mb-0">Search</button></div>
+                        <div class="col-sm-6 col-md-3 mt-4"><button type="submit" class="btn btn-success mb-0">Submit</button></div>
                         <div class="col-sm-12 col-md-12 ">
                             <button type="submit" class="btn btn-success mb-0 mr-3 mt-4">Today</button>
                             <button type="submit" class="btn btn-success mb-0 mr-3 mt-4">Yesterday</button>
