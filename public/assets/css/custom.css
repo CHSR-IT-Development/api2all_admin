@@ -1,0 +1,191 @@
+.app.guest-mode .app-header.header .navbar{
+    background: #020e2b !important;
+}
+
+.app.guest-mode .app-header.header .header-bottom {
+    background: #244091;
+    color:white;
+}
+
+.app.guest-mode .app-header.header .navbar .navbar-brand img {
+    width: 30%;
+}
+
+.app.guest-mode .app-header.header .navbar .nav-link {
+    padding: 0.5rem;
+    font-size: 11px;
+    margin-left: 1rem;
+}
+
+.app.guest-mode .app-header.header .navbar .nav-link:hover {
+    border-radius: 10px;
+    box-shadow: inset 0 0 50px rgba(255,255,255,0.3);
+}
+
+.app.guest-mode footer {
+    background: #020e2b;
+}
+
+.app.guest-mode footer .footer-top-section {
+    background: #244091;
+}
+
+.app.guest-mode footer .footer-bottom-section {
+    color: #fff;
+    background: #010a1e;
+}
+
+.app.guest-mode footer .footer-bottom-section p {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.app.guest-mode footer .footer-main-section .section-title {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.app.guest-mode footer .footer-main-section .section-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.app.guest-mode footer .footer-main-section p {
+    font-size: 0.75em;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.app.guest-mode footer .footer-main-section .provider-title {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.app.guest-mode footer .footer-main-section .gaming-provider img {
+    filter: invert(1);
+    height: 50px !important;
+}
+
+.app.guest-mode footer .footer-main-section .payment-method img, 
+.app.guest-mode footer .footer-main-section .suggested-browser img {
+    filter: invert(1);
+    height: 30px !important;
+}
+
+.app.guest-mode .guest-page-title {
+    color: #244091;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.app.guest-mode .register-form button[type="submit"] {
+    padding: 15px 75px !important;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 6px 0;
+    background: #5EC6F1;
+    border: 1px solid #5EC6F1;
+}
+
+.app.guest-mode .register-form button[type="submit"]:hover {
+    background: #51aeda !important;
+}
+
+
+/*  */
+
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.header-bottom .header-sub-menu {
+    background-color: #244091;
+    position: relative;
+  }
+  .header-bottom .header-sub-menu .header-container {
+    width: 1132px;
+    margin: 0 auto;
+    border: 1px dashed #244091;
+  }
+  .header-bottom .header-sub-menu nav {
+    background-color: #244091;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .header-bottom .header-sub-menu nav ul.top-ul {
+    margin: 0 auto;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .header-bottom .header-sub-menu nav ul a {
+    color: white;
+    text-decoration: none;
+  }
+  .header-bottom .header-sub-menu nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+    z-index: 100;
+  }
+  .header-bottom .header-sub-menu nav > ul > li > ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 101;
+    visibility: hidden;
+    opacity: 0;
+    background-image: linear-gradient(180deg, #132865, #244091);
+  }
+
+  .header-bottom .header-sub-menu nav > ul > li > ul.sub-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header-bottom .header-sub-menu nav > ul > li > ul.sub-nav p {
+    background: #2c51bc;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+  }
+
+  .header-bottom .header-sub-menu nav > ul > li > ul > li {
+    padding: 5px 0;
+    list-style: none;
+    margin: 0 12px;
+    min-width: 250px;
+    text-align: center;
+  }
+  .header-bottom .header-sub-menu nav > ul > li > ul > li:hover {
+    background: #132865;
+  }
+  .header-bottom .header-sub-menu nav > ul > li > ul > li a {
+    color: white;
+  }
+
+  .header-bottom .header-sub-menu nav > ul > li > ul > li a img {
+    margin: auto;
+  }
+  .header-bottom .header-sub-menu nav > ul > li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    transition: all linear;
+  }
+  
+
+/* ///////////////////////////////////////// */
