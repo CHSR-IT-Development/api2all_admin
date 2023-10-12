@@ -18,5 +18,11 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        // Register the seeders to run here
+        $this->call([
+            UsersTableSeeder::class,
+            // Other seeders can be added here
+        ]);
     }
 }
