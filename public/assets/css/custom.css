@@ -70,7 +70,7 @@
     height: 50px !important;
 }
 
-.app.guest-mode footer .footer-main-section .payment-method img, 
+.app.guest-mode footer .footer-main-section .payment-method img,
 .app.guest-mode footer .footer-main-section .suggested-browser img {
     filter: invert(1);
     height: 30px !important;
@@ -207,6 +207,7 @@
     border-color: #e49e24 !important;
     color: #fff;
   }
-  
-
+  .collapse {
+    visibility: inherit;
+}
 /* ///////////////////////////////////////// */
