@@ -12,8 +12,8 @@
                 <div class="ms-auto">
                     <div class="d-flex align-items-center mb-3 justify-content-end">
                         <div class="header-date-time text-white me-3 d-none d-md-block">11/10/2023 | 01:47AM [GMT -- -4]</div>
-                        <a class="btn bg-info text-white me-3 my-1" href="/login" type="submit">LOGIN</a>
-                        <a class="btn bg-warning text-white my-1" href="/register" type="submit">SIGN-UP</a>
+                        <a class="btn bg-info login-button text-white me-3 my-1" href="/login" type="submit">LOGIN</a>
+                        <a class="btn bg-warning register-button text-white my-1" href="/register" type="submit">SIGN-UP</a>
                     </div>
                     <div class="text-white d-none d-md-block">
                         <ul class="nav justify-content-end">
@@ -22,7 +22,7 @@
                             <a class="nav-link text-white" href="#">AFFILIATE</a>
                             <a class="nav-link text-white" aria-disabled="true">REWARDS</a>
                             <a class="nav-link text-white" aria-disabled="true">REFER A FRIEND</a>
-                            <span class="nav-link text-white">DARK MODE</spna>
+                            {{-- <span class="nav-link text-white">DARK MODE</spna> --}}
                         </ul>
                     </div>
                 </div>

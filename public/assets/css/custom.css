@@ -186,6 +186,27 @@
     opacity: 1;
     transition: all linear;
   }
+
+  .app.guest-mode .header {
+    background: #ebf1fb;
+  }
+
+  .app.guest-mode .header .login-button {
+    color: #fff;
+    border-color: #5ec6f1 !important;
+    background: #5ec6f1 !important;
+    width: 85px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .app.guest-mode .header .register-button {
+    width: 85px;
+    text-align: center;
+    white-space: nowrap;
+    background: #e49e24 !important;
+    border-color: #e49e24 !important;
+    color: #fff;
+  }
   
 
 /* ///////////////////////////////////////// */
