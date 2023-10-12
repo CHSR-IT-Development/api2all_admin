@@ -27,6 +27,7 @@ return new class extends Migration
             $table->date('date_of_birth')->default('0001-01-01');
             $table->string('mobile')->nullable();
             $table->string('currency')->default('MYR');
+            $table->string('key', 2048)->nullable();
             $table->timestamp('time_zone')->useCurrent();
             $table->ipAddress('last_login_ip')->nullable();
             $table->timestamps();

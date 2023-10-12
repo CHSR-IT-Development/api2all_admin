@@ -26,6 +26,7 @@ class UsersTableSeeder extends Seeder
             'time_zone' => now(),
             'credit_limit' => 0,
             'used_credit' => 0,
+            'key' => '4EE1E150-FB37-44E8-B788-4015F2845298',
             'created_at' => now(),
             'updated_at' => now(),
         ]);
