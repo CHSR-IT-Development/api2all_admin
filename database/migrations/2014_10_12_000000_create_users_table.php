@@ -18,7 +18,6 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
             $table->bigInteger('credit_limit')->default(0);
             $table->bigInteger('used_credit')->default(0);
@@ -27,7 +26,7 @@ return new class extends Migration
             $table->date('date_of_birth')->default('0001-01-01');
             $table->string('mobile')->nullable();
             $table->string('currency')->default('MYR');
-            $table->string('key', 2048)->nullable();
+            $table->string('sign_key', 2048)->nullable();
             $table->timestamp('time_zone')->useCurrent();
             $table->ipAddress('last_login_ip')->nullable();
             $table->timestamps();
