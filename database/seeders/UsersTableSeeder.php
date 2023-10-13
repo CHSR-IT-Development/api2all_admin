@@ -16,12 +16,12 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name' => 'admin',
+            'name' => 'ptn777',
             'email' => 'admin@admin.com',
             'password' => Hash::make('superadmin'),
             'role' => 'SSR',
             'account_type' => 'Credit',
-            'date_of_birth' => '0001-01-01',
+            'date_of_birth' => '1995-01-01',
             'currency' => 'MYR',
             'time_zone' => now(),
             'credit_limit' => 0,

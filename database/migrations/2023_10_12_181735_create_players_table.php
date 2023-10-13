@@ -13,20 +13,21 @@ return new class extends Migration
     {
         Schema::create('players', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
+            $table->foreignId('user_id')->default(1);
             $table->string('user_name');
+            $table->string('full_name');
             $table->string('password');
             $table->bigInteger('credit_limit')->default(0);
             $table->string('currency')->default('MYR');
-            $table->string('name');
-            $table->date('dob')->default('0001-01-01');
+            $table->date('dob')->default('1996-01-01');
             $table->string('email');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('mobile')->nullable();
-            $table->timestamp('time_zone')->useCurrent();
-            $table->string('bank_name')->default('SSR');
-            $table->string('bank_account_no')->default('Credit');
-            $table->integer('gender')->default(0);
+            $table->string('time_zone')->nullable();
+            $table->timestamp('timestamp')->useCurrent();
+            $table->string('bank_name')->default('Maybank Berhad');
+            $table->string('bank_account_no')->default('11201123352');
+            $table->integer('gender')->default(1);
             $table->rememberToken();
             $table->timestamps();
         });
