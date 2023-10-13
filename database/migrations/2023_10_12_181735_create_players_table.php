@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->default(1);
             $table->string('user_name');
-            $table->string('full_name');
+            $table->string('full_name')->default('Full Name');
             $table->string('password');
             $table->bigInteger('credit_limit')->default(0);
             $table->string('currency')->default('MYR');
