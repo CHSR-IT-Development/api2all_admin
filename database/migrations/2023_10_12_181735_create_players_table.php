@@ -28,6 +28,7 @@ return new class extends Migration
             $table->string('bank_name')->default('Maybank Berhad');
             $table->string('bank_account_no')->default('11201123352');
             $table->integer('gender')->default(1);
+            $table->string('ref_code');
             $table->rememberToken();
             $table->timestamps();
         });
