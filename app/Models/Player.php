@@ -20,7 +20,7 @@ class Player extends Model
         'password', // Consider not making this fillable and use built-in auth mechanisms
         'credit_limit',
         'currency',
-        'name',
+        'full_name',
         'dob',
         'email',
         'email_verified_at',

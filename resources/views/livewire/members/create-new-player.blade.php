@@ -4,6 +4,8 @@
 <link href="{{URL::asset('assets/plugins/tabs/style.css')}}" rel="stylesheet" />
 <!-- Date Picker css -->
 <link href="{{URL::asset('assets/plugins/date-picker/date-picker.css')}}" rel="stylesheet" />
+
+<link href="{{URL::asset('assets/plugins/sweetalert2/sweetalert2.css')}}" rel="stylesheet" />
 @endsection
 <div>
     <div class="page-header">
@@ -39,100 +41,112 @@
                         </ul>
                         <div class="content_wrapper">
                             <div class="tab_content active">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card shadow-none border border-1">
-                                            <div class="card-header ">
-                                                <div class="card-title">
-                                                    Informations Player
-                                                </div>
-                                            </div>
-                                            <div class="card-body row">
-                                                <div class="col-sm-12 col-md-6">
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">User Name</label>
-                                                        <div class="input-group">
-                                                            <span class="input-group-append">
-                                                                <span class="btn btn-light">ma00</span>
-                                                            </span>
-                                                            <input type="text" class="form-control" placeholder="Search for...">
-                                                            <span class="input-group-append">
-                                                                <button class="btn btn-success" , type="button">Check Availability</button>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Password *</label>
-                                                        <div class="input-group">
-                                                            <input type="password" class="form-control" placeholder="Password must contain 8 -15 characters">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Re-enter Password *</label>
-                                                        <div class="input-group">
-                                                            <input type="password" class="form-control" placeholder="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Credit Limit</label>
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control text-left" placeholder="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Currency</label>
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control text-left" readonly placeholder="MYR">
-                                                        </div>
+                                <form wire:submit="store">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card shadow-none border border-1">
+                                                <div class="card-header ">
+                                                    <div class="card-title">
+                                                        Informations Player
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-12 col-md-6">
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Name</label>
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                <div class="card-body row">
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">User Name</label>
+                                                            <div class="input-group">
+                                                                <span class="input-group-append">
+                                                                    <span class="btn btn-light">ma00</span>
+                                                                </span>
+                                                                <input type="text" class="form-control" placeholder="Search for..." wire:model="user_name">
+                                                                <span class="input-group-append">
+                                                                    <button class="btn btn-success" , type="button">Check Availability</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Password *</label>
+                                                            <div class="input-group">
+                                                                <input type="password" class="form-control" placeholder="Password must contain 8 -15 characters" wire:model="password">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Re-enter Password *</label>
+                                                            <div class="input-group">
+                                                                <input type="password" class="form-control" placeholder="" wire:model="password_confirmation">
+                                                            </div>
+                                                            <div>
+                                                                @error('password_confirmation') <span class="error">{{ $message }}</span> @enderror
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Credit Limit</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control text-left" placeholder="0" wire:model="credit_limit">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Currency</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control text-left" readonly placeholder="MYR" wire:model="currency">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Date of Birth</label>
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <div class="input-group-text">
-                                                                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
-                                                                        <path d="M0 0h24v24H0V0z" fill="none" />
-                                                                        <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 2v3H4V5h16zM4 21V10h16v11H4z" />
-                                                                        <path d="M4 5.01h16V8H4z" opacity=".3" /></svg>
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Name</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control text-left" placeholder="" wire:model="full_name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Date of Birth</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">
+                                                                        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
+                                                                            <path d="M0 0h24v24H0V0z" fill="none" />
+                                                                            <path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 2v3H4V5h16zM4 21V10h16v11H4z" />
+                                                                            <path d="M4 5.01h16V8H4z" opacity=".3" /></svg>
+                                                                    </div>
                                                                 </div>
-                                                            </div><input class="form-control fc-datepicker" placeholder="MM/DD/YYYY" type="text">
+                                                                <input
+                                                                    wire:model="dob"
+                                                                    type="text" class="form-control datepicker fc-datepicker" placeholder="MM/DD/YYYY" autocomplete="off"
+                                                                    data-provide="datepicker" data-date-autoclose="true" data-date-format="mm/dd/yyyy"
+                                                                    data-date-today-highlight="true"
+                                                                    onchange="this.dispatchEvent(new InputEvent('input'))"
+                                                                >
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Email</label>
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Email</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control text-left" placeholder="" wire:model="email">
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group mb-3">
-                                                        <label class="form-label">Mobile</label>
-                                                        <div class="input-group">
-                                                            <input type="text" class="form-control text-left" placeholder="">
+                                                        <div class="form-group mb-3">
+                                                            <label class="form-label">Mobile</label>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control text-left" placeholder="" wire:model="mobile">
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="form-label">Time Zone</label>
-                                                        <select name="country" id="select-countries" class="form-control custom-select select2">
-                                                            <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>(UTC +07:00) Bangkok, Hanoi, Jakarta</option>
-                                                        </select>
+                                                        <div class="form-group">
+                                                            <label class="form-label">Time Zone</label>
+                                                            <select wire:model="time_zone" name="country" id="select-countries" class="form-control custom-select select2">
+                                                                <option value="pl" data-data='{"image": "{{URL::asset('assets/images/flags/pl.svg')}}"}' selected>(UTC +07:00) Bangkok, Hanoi, Jakarta</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="text-center">
-                                    <button class="btn btn-success mx-2">Submit</button>
-                                    <button class="btn btn-danger mx-2">Cancel</button>
-                                </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-success mx-2">Submit</button>
+                                        <button type="reset" class="btn btn-danger mx-2">Cancel</button>
+                                    </div>
+                                </form>
                             </div>
                             <div class="tab_content">
                                 <div class="row">
@@ -2384,4 +2398,21 @@
 <!-- Form Advanced Element -->
 <script src="{{URL::asset('assets/js/formelementadvnced.js')}}"></script>
 <script src="{{URL::asset('assets/js/form-elements.js')}}"></script>
+
+<script src="{{URL::asset('assets/plugins/sweetalert2/sweetalert2.js')}}"></script>
+@if (session('message'))
+    <script>
+        $(document).ready(function(){
+            Swal.fire({
+                position: 'center',
+                type: 'error',
+                title: 'Error!',
+                icon: 'error',
+                text: '{{ session('message') }}',
+                showConfirmButton: false,
+                timer: 2500
+            });
+        });
+    </script>
+@endif
 @endsection
