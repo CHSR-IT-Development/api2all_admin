@@ -20,8 +20,8 @@ class CreateNewPlayer extends Component
     public $dob = '';
     public $email = '';
     public $mobile = '';
-    public $credit_limit;
-    public $time_zone;
+    public $credit_limit=-1;
+    public $time_zone='utc';
 
     private function createSign($timestamp, $info, $key)
     {
@@ -37,30 +37,33 @@ class CreateNewPlayer extends Component
             'password' => 'required|string',
             'password_confirmation' => 'required|string|same:password'
         ]);
-        $partner = "c2777";
+        $partner = "ptn777";
         $key = '3BCF4A25-0419-4DB9-8256-A1394DC51B47';
-        $time = now()->getTimeStampMs();
+        $time = 1696650284; //now()->getTimeStampMs();
         $info = $partner; // . $this->user_name . $this->password . $this->full_name . $this->email . $this->mobile . $this->dob . $this->currency . request('BankName', ''). request('BankAccountNo', '') . request('Gender', '');
-        $sign = $this->createSign($time, $info, $key);
+        $sign = '9b564e5f82fb3880690422283568ddaca2adca7d7159beca957a09e99fc3e733'; //$this->createSign($time, $info, $key);
         $postData = [
             'Partner' => $partner,
             'Sign' => $sign,
             'TimeStamp' => $time,
-            'UserName' => 'ma00' . $this->user_name,
+            'UserName' => $this->user_name,
             'Password' => $this->password,
             'Fullname' => $this->full_name,
             'Email' => $this->email,
             'Mobile' => $this->mobile,
-            'Gender' => -1,
-            'DoB' => Carbon::parse($this->dob)->format('Y-m-d') ,
+            'Gender' => 1,
+            'DoB' => Carbon::parse($this->dob)->format('Y-m-d'),
             'Currency' => 'MYR',
-            'BankName' => 'MY',
-            'BankAccountNo' => '12345678910',
+            'BankName' => 'Maybank Berhad',
+            'BankAccountNo' => '11201123352',
         ];
         $response = Http::post(config('api2all.auth') . '/api/partner/register', $postData);
         if ($response->successful()) {
             $res = $response->json();
-            // Log::debug('res: ', [$res]);
+             Log::debug('credit_limit: ', [$this->credit_limit]);
+             Log::debug('time_zone: ', [$this->time_zone]);
+             Log::debug('post: ', [$postData]);
+             Log::debug('res: ', [$res]);
             if ($res['Error'] == 0) {
                 $player = Player::create([
                     // 'user_id' => '',
@@ -70,13 +73,12 @@ class CreateNewPlayer extends Component
                     'email' => $this->email,
                     'mobile' => $this->mobile,
                     'time_zone' => $this->time_zone,
-                    'gender' => -1,
-                    'dob' => $this->dob,
+                    'gender' => 1,
+                    'dob' => Carbon::parse($this->dob)->format('Y-m-d'),
                     'credit_limit' => $this->credit_limit,
                     'currency' => 'MYR',
                     'bank_name' => 'Maybank Berhad',
                     'bank_account_no' => '11201123352',
-                    'api_token' => Str::random(60),
                 ]);
             }
             session()->flash('error', $res['Error']);

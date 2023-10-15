@@ -31,6 +31,10 @@ class Player extends Model
         'gender',
     ];
 
+    protected $casts = [
+        'dob' => 'date',
+    ];
+
     /**
      * Get the user that owns the player.
      */
