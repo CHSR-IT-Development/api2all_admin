@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UsersTableSeeder::class,
             // Other seeders can be added here
+            LevelsTableSeeder::class,
         ]);
     }
 }
