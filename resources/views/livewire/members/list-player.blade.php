@@ -148,4 +148,19 @@
     });
 </script>
 @endif
+@if (session('error') == 0)
+    <script>
+        $(document).ready(function(){
+            Swal.fire({
+                position: 'center',
+                type: 'success',
+                title: 'Success!',
+                icon: 'success',
+                text: '{{ session('message') }}',
+                showConfirmButton: false,
+                timer: 1500
+            });
+        });
+    </script>
+@endif
 @endsection
