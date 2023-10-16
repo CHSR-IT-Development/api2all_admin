@@ -37,11 +37,11 @@ class CreateNewPlayer extends Component
             'password' => 'required|string',
             'password_confirmation' => 'required|string|same:password'
         ]);
-        $partner = "ptn777";
+        $partner = "c2777";
         $key = '3BCF4A25-0419-4DB9-8256-A1394DC51B47';
-        $time = 1696650284; //now()->getTimeStampMs();
+        $time = now()->getTimeStampMs(); //1696650284;
         $info = $partner; // . $this->user_name . $this->password . $this->full_name . $this->email . $this->mobile . $this->dob . $this->currency . request('BankName', ''). request('BankAccountNo', '') . request('Gender', '');
-        $sign = '9b564e5f82fb3880690422283568ddaca2adca7d7159beca957a09e99fc3e733'; //$this->createSign($time, $info, $key);
+        $sign = $this->createSign($time, $info, $key); //'9b564e5f82fb3880690422283568ddaca2adca7d7159beca957a09e99fc3e733';
         $postData = [
             'Partner' => $partner,
             'Sign' => $sign,
@@ -60,10 +60,6 @@ class CreateNewPlayer extends Component
         $response = Http::post(config('api2all.auth') . '/api/partner/register', $postData);
         if ($response->successful()) {
             $res = $response->json();
-             Log::debug('credit_limit: ', [$this->credit_limit]);
-             Log::debug('time_zone: ', [$this->time_zone]);
-             Log::debug('post: ', [$postData]);
-             Log::debug('res: ', [$res]);
             if ($res['Error'] == 0) {
                 $player = Player::create([
                     // 'user_id' => '',
