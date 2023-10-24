@@ -5,6 +5,8 @@
 <link href="{{URL::asset('assets/plugins/datatable/responsive.bootstrap4.min.css')}}" rel="stylesheet" />
 <!-- Slect2 css -->
 <link href="{{URL::asset('assets/plugins/select2/select2.min.css')}}" rel="stylesheet" />
+
+<link href="{{URL::asset('assets/plugins/sweetalert2/sweetalert2.css')}}" rel="stylesheet" />
 @endsection
 <div>
     <div class="page-header">
@@ -62,7 +64,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="gradeX">
+                                <!-- <tr class="gradeX">
                                     <td class="text-center">1</td>
                                     <td class="text-left">ma00maxman77</td>
                                     <td class="text-left">sample</td>
@@ -81,7 +83,29 @@
                                             <i class="fa fa-edit"></i>
                                         </a>
                                     </td>
-                                </tr>
+                                </tr> -->
+                                @foreach ($this->players as $player)
+                                    <tr class="gradeX" wire:key="{{ $loop->index }}">
+                                        <td class="text-center">{{ $loop->index + 1 }}</td>
+                                        <td class="text-left">{{ $player->user_name }}</td>
+                                        <td class="text-left">{{ $player->full_name }}</td>
+                                        <td class="text-center"><a _ngcontent-c22="" class="btn-action" title="Active/Suspend">Active</a></td>
+                                        <td class="text-center hide"><i class="text text-muted fa fa-circle"></i></td>
+                                        <td class="text-left"><a title="Update credit limit">{{ $player->credit_limit }}</a></td>
+                                        <td class="text-left">10.00</td>
+                                        <td class="text-left">{{ $player->currency }}</td>
+                                        <td class="text-left"><i class="font-slight-small">2018-08-06 19:46:03</i></td>
+                                        <td class="text-center">{{ $player->created_at }}</td>
+                                        <td class="text-center">
+                                            <a class="hide" requirepermission="access_player" secured="" style="font-size:20px;padding-right:5px;" title="Copy">
+                                                <i class="fa fa-copy"></i>
+                                            </a>
+                                            <a requirepermission="edit_member_info" secured="" style="font-size:20px;" title="Edit">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
@@ -107,4 +131,36 @@
 <script src="{{URL::asset('assets/js/datatables.js')}}"></script>
 <!-- Select2 js -->
 <script src="{{URL::asset('assets/plugins/select2/select2.full.min.js')}}"></script>
+
+<script src="{{URL::asset('assets/plugins/sweetalert2/sweetalert2.js')}}"></script>
+@if (session('error') != 0)
+<script>
+    $(document).ready(function(){
+        Swal.fire({
+            position: 'center',
+            type: 'error',
+            title: 'Error!',
+            icon: 'error',
+            text: '{{ session('message') }}',
+            showConfirmButton: false,
+            timer: 1500
+        });
+    });
+</script>
+@endif
+@if (session('error') == 0)
+    <script>
+        $(document).ready(function(){
+            Swal.fire({
+                position: 'center',
+                type: 'success',
+                title: 'Success!',
+                icon: 'success',
+                text: '{{ session('message') }}',
+                showConfirmButton: false,
+                timer: 1500
+            });
+        });
+    </script>
+@endif
 @endsection
